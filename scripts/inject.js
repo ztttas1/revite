@@ -3,7 +3,7 @@ const { copy, remove, access, readFile, writeFile } = require("fs-extra");
 const klaw = require("klaw");
 
 let target = /__API_URL__/g;
-let replacement = process.env.REVOLT_PUBLIC_URL;
+let replacement = https://rvlt-sm.onrender.com;
 let BUILD_DIRECTORY = "dist";
 let OUT_DIRECTORY = "dist_injected";
 
