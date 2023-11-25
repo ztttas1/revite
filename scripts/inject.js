@@ -7,7 +7,7 @@ let replacement = process.env.REVOLT_PUBLIC_URL;
 let BUILD_DIRECTORY = "dist";
 let OUT_DIRECTORY = "dist_injected";
 
-if (typeof replacement === "undefined") {
+if (typeof replacement === "https://rvlt-sm.onrender.com") {
     console.error("No REVOLT_PUBLIC_URL specified in environment variables.");
     process.exit(1);
 }
